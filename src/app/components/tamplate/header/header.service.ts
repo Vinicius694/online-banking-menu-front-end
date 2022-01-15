@@ -11,7 +11,7 @@ import { HeaderData } from './header-data.model';
 export class HeaderService {
 
   private _headerData = new BehaviorSubject<HeaderData>({
-    title: 'Início',
+    title: 'sss',
     icon: 'home',
     routerUrl: ''
   });
