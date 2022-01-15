@@ -31,6 +31,7 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { OperationsComponent } from './components/operations/operations.component';
 
+
 const routes: Routes = [
 
 
@@ -63,9 +64,7 @@ const routes: Routes = [
     ProductDeleteComponent,
  
   //operations
-  OperationsComponent,
-
-
+  OperationsComponent,   
 
   ],
   imports: [
