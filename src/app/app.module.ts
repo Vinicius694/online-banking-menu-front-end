@@ -30,6 +30,7 @@ import { ProductReadComponent } from './components/product/product-read/product-
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { OperationsComponent } from './components/operations/operations.component';
+import { AccountComponent } from './components/account/account.component';
 
 
 const routes: Routes = [
@@ -45,6 +46,9 @@ const routes: Routes = [
 
   //operations
   { path: "operations", component: OperationsComponent },
+
+  //account
+  { path: "account", component: AccountComponent },
 
 
 
@@ -64,7 +68,10 @@ const routes: Routes = [
     ProductDeleteComponent,
  
   //operations
-  OperationsComponent,   
+  OperationsComponent,
+  
+ //account
+  AccountComponent,   
 
   ],
   imports: [
