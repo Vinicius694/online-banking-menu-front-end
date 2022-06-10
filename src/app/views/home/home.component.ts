@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor(private headerService: HeaderService) { 
     headerService.headerData = {
-      title: 'Início',
+      title: 'Event-Driven Architecture',
       icon: 'home',
       routerUrl: ''
     }

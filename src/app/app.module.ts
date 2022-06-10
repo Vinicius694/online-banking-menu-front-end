@@ -29,13 +29,29 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { OperationsComponent } from './components/operations/operations.component';
+import { AccountComponent } from './components/account/account.component';
+
 
 const routes: Routes = [
+
+
   { path: "", component: HomeComponent },
   { path: "products", component: ProductCrudComponent },
   { path: "products/create", component: ProductCreateComponent },
   { path: "products/update/:id", component: ProductUpdateComponent },
   { path: "products/delete/:id", component: ProductDeleteComponent },
+
+
+
+  //operations
+  { path: "operations", component: OperationsComponent },
+
+  //account
+  { path: "account", component: AccountComponent },
+
+
+
 ];
 
 @NgModule({
@@ -49,7 +65,14 @@ const routes: Routes = [
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+ 
+  //operations
+  OperationsComponent,
+  
+ //account
+  AccountComponent,   
+
   ],
   imports: [
     BrowserModule,
